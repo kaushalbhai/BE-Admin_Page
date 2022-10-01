@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sell.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>SELLORDER</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row sidebar">
+            <div class="col-2 d-block side1">
+                <div class="row pb-3">
+                    <div class="col-md-12"><img src="logoBE.png"class="ps-2 img-fluid" alt=""></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                      <a href="home.html" class="d-block ps-5 text-decoration-none text-dark pb-3">DASBOARD</a>
+                      <a href="buy.html" class="d-block ps-5 text-decoration-none text-dark pb-3">BUY ORDERS</a>
+                      <a href="enquire.html" class="d-block ps-5 text-decoration-none text-dark pb-3">ENQUIRES</a>
+                      <a href="sell.html"class="d-block ps-5 text-decoration-none text-dark pb-3">SELL ORDERS</a>
+                      <a href="index.html"class="d-block ps-5 text-decoration-none text-dark pb-3">PRODUCTS</a>
+                      <a href="customer.html"class="d-block ps-5 text-decoration-none text-dark pb-3">CUSTOMERS</a>
+                      <a href="#"class="d-block ps-5 text-decoration-none text-dark pb-3">MARKETING</a>
+                      <a href="#"class="d-block ps-5 text-decoration-none text-dark pb-3">BLOG</a>
+                <h1 class="text-center"><i class="bi bi-person-circle" style="color:#24A1FD"></i>
+                </h1>
+                <a href="#"class="text-center text-decoration-none text-dark"><h5>Admin</h5></a>
+                <a href="#" class="text-decoration-none text-dark"><p class="text-center">Lorem, ipsum.</p></a>
+                <div class="row text-center pt-1 pb-4">
+                    <div class="col-5">
+                        <a href="#"class=" text-dark">view profile</a>
+                    </div>
+                    <div class="col-5">
+                        <a href="#"class=" text-dark">Sign out</a>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <!-- navbar is here -->
+            <div class="col-md-10 nav">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        
+                      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button> -->
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          
+                  
+                          <li class="nav-item">
+                            <button type="button" class="btn btn-sm"><span><a href="#">+</span>Add a New Product</a></button>
+                          </li>
+                        </ul>
+                        <form class="d-flex navend ">
+                            <button type="button" class="btn btn-sm">View Website</button>
+                            
+
+                        </form>
+                        <i class="bi bi-search fs-4 p-4"></i>
+                        <i class="bi bi-bell fs-4 p-4"></i>
+                        <i class="bi bi-envelope fs-4 p-4"></i>
+                      </div>
+                    </div>
+                  </nav>
+                  <!-- dow of nav bar -->
+                  <div class="container-fluid">
+                    <div class="container-fluid navdown mb-4 mt-4">
+                      <div class="row mt-3">
+                          <div class="col-md-3 serch-box">
+                              <div class="container-fluid">
+                                <form class="d-flex">
+                                  <input type="text" class="form-control" style="background-color:#EAEAEA;" placeholder="Search by Product Code" aria-label="Username">
+                                </form>
+                              </div>
+                            
+                          </div>
+                          <div class="col-md-3 drop1">
+                            <div class="dropdown">
+                              <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sort by
+                              </a>
+                            
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-3 drop2">
+                            <div class="dropdown">
+                              <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              Filter By Payment Status
+                              </a>
+                            
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-3 drop3">
+                            <div class="dropdown">
+                              <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              Filter by Delivery Status
+                              </a>
+                            
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          
+                          </div>
+                          </div>
+                    
+                    <!-- Table -->
+                    <table class="table">
+                        
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Order Code</th>
+                            <th scope="col">Product Code</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Delivery</th>
+                            <th scope="col">Payment Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>10874</td>
+                            <td>008</td>
+                            <td>Lorem ispusm</td>
+                            <td>18,000</td>
+                            <td>Not Yet Dispatched</td>
+                            <td>Recieved</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <nav aria-label="Page navigation example "class="" >
+                        <ul class="pagination justify-content-center mt-4">
+                          <!-- <li class="page-item" style="background-color: #999999;">
+                            <a class="page-link text-light" href="#" style="background-color: #24A1FD;" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li> -->
+                          <li class="page-item"><a class="page-link text-light" href="#" style="background-color:#24A1FD;"> << <a></li>
+    
+                          <li class="page-item"><a class="page-link text-light" href="#" style="background-color: #35C0ED;"> < </a></li>
+                          <li class="page-item text-decoration-none text-dark"><a class="page-link" href="#" style="background-color:#6CDBFF;">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">4</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">5</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">6</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">.</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">.</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">.</a></li>
+                          <li class="page-item"><a class="page-link" href="#" style="background-color:#6CDBFF;">20</a></li>
+                          <li class="page-item"><a class="page-link text-light" href="#" style="background-color:#35C0ED;"> > </a></li>
+                          <li class="page-item"><a class="page-link text-light" href="#" style="background-color:#24A1FD;"> >><a></li>
+    
+                          <!-- <li class="page-item">
+                            <a class="page-link text-light" href="#" style="background-color:#24A1FD;" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li> -->
+                        </ul>
+                      </nav>
+                      
+                      
+                        
+                      
+        </div>
+        </div>
+        </div>
+        </div>
+
+         <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
